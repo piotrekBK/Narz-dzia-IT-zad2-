@@ -17,7 +17,7 @@ def show_list():
     lista = load_data()
     
     if not lista:
-        print("\nLista jest pusta. Nie ma nic do usunięcia.")
+        print("\nLista jest pusta.")
         return
 
     print("\n--- lista ---")

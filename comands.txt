@@ -1,0 +1,18 @@
+cd folder - przemieszczanie się pomiędzy folderami
+
+
+git clone https://github.com/piotrekBK/Narz-dzia-IT-zad2-.git - skopiowanie repozytorium na komputer
+git status - pokazuje zmiany
+git add --all - dodanie wszystkich zmian do stage
+git reset - cofa git add
+git add . - dodaje wszystko z folderu w którym jesteś 
+git log - sprawdzanie logów
+
+git commit -m "text" - zrobienie commita
+git config --global user.name "Twoje Imię" i git config --global user.email "twoj@email.com" potrzebne by git wiedział kto commituje
+git reset --hard - resetuje wszystko do ostatniego comita
+
+git branch - pokazuje wszystkie branche
+git branch nazwa - dodaje branch
+git checkout nazwa - przemieszczanie się pomiędzy branchami
+git merge nazwa - łączy branche
