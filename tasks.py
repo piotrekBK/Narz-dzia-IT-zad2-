@@ -1,5 +1,6 @@
 import json
 import os
+# import main
 
 FILE_NAME = 'storage.js'
 
@@ -53,10 +54,10 @@ def delete_item():
 
 def main():
     while True:
-        print("\n=== MENU GŁÓWNE ===")
+        print("\n=== Edytuj ===")
         print("1. Dodaj")
         print("2. Usuń")
-        print("3. Wyjdź")
+        print("3. Wróć")
         
         wybor = input("Wybierz opcję (1/2/3): ")
         
